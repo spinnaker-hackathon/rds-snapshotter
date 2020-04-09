@@ -15,16 +15,16 @@ plugins {
 apply plugin: "io.spinnaker.plugin.bundler"
 
 spinnakerBundle {
-  pluginId = "Armory.RandomWaitPlugin"
-  description = "An example of a PF4J-based plugin that provides a custom pipeline stage."
-  provider = "https://github.com/spinnaker-plugin-examples"
+  pluginId = "Oss.RdsSnapshotterPlugin"
+  description = "Plugin to handle snapshotting an RDS instance"
+//  provider = "https://github.com/spinnaker-plugin-examples"
   version = rootProject.version
 }
 
 version = normalizedVersion()
 
 subprojects {
-  group = "io.armory.plugin.stage.wait.random"
+  group = "oss.plugin.stage.snapshotter.rds"
   version = rootProject.version
 }
 
