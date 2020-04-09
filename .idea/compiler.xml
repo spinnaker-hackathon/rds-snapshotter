@@ -2,10 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="pf4jStagePlugin.main" target="11" />
       <module name="pf4jStagePlugin.random-wait-deck.main" target="11" />
       <module name="pf4jStagePlugin.random-wait-deck.test" target="11" />
       <module name="pf4jStagePlugin.random-wait-orca.main" target="1.8" />
       <module name="pf4jStagePlugin.random-wait-orca.test" target="1.8" />
+      <module name="pf4jStagePlugin.rds-snapshotter-orca.main" target="1.8" />
+      <module name="pf4jStagePlugin.rds-snapshotter-orca.test" target="1.8" />
+      <module name="pf4jStagePlugin.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
