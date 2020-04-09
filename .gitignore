@@ -1,0 +1,16 @@
+/.gradle/
+build
+.DS_Store
+*.iml
+*.ipr
+*.iws
+out
+
+classes
+
+/.idea/
+!/.idea/runConfigurations/**
+!/.idea/google-java-format.xml
+
+node_modules
+dist

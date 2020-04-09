@@ -6,7 +6,7 @@ pluginManagement {
   }
 }
 
-rootProject.name="pf4jStagePlugin"
+rootProject.name="rds-snapshotter"
 
 include "rds-snapshotter-orca"
 
