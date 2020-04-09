@@ -10,8 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/random-wait-deck" />
-            <option value="$PROJECT_DIR$/random-wait-orca" />
+            <option value="$PROJECT_DIR$/rds-snapshotter-orca" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
